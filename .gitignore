@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Accidental duplicate folders you found earlier
+checkpoints/best_model/
+checkpoints/best_model (2)/
+
+# Large raw training data (not part of repo per your README)
+GT/
+NoisyLR/
+
+# Logs / temp
+*.log
